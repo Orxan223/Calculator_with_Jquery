@@ -1,0 +1,46 @@
+body {
+    background: #00ffe7;
+}
+
+
+section{
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counts{
+    background-color: #4e4e4e;
+}
+.reqem, .beraber , .temizle, .emeliyyatci{
+    margin: 10px 50px;
+    text-decoration: none;
+    background: #4e4e4e;
+    border: red;
+    color: white;
+    font-size: 25px;
+}
+
+.emeliyyatci{
+    color: red;
+}
+.reqem, .temizle{
+    padding: 0 8px;
+}
+
+
+.r4{
+    display: inline;
+}
+
+#screen,#cavab{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    color: azure;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: white;
+}
